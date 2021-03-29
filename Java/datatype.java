@@ -12,8 +12,12 @@
 //character - single character words
 //boolean - either true or flase
 //byte
+// Array - collection of data such as doubles, int etc.
+// class 
 
-
+/*
+Constants
+*/
 class Main {
     public static void main(String[] args) {
       //declaring strings
@@ -51,5 +55,22 @@ class Main {
       //defining long
       long dan2 =  100000000l;
       System.out.println("long : " + dan2);
+
+
+      //constants
+      final int y =10;
+      int x = 20;
+      System.out.println(x*y);
+
+      String myName = "Black";
+      char letter = 'A';
+      double z = 2.2;
+      //or
+      double f = 2d;
+
+      Sytem.out.print(myName);
+      System.out.print(letter);
+      System.out.print(z);
+      System.out.println("Double :" + f);
     }
   }
