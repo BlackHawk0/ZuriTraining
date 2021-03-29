@@ -68,7 +68,7 @@ class Main {
       //or
       double f = 2d;
 
-      Sytem.out.print(myName);
+      System.out.print(myName);
       System.out.print(letter);
       System.out.print(z);
       System.out.println("Double :" + f);

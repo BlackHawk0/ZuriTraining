@@ -4,7 +4,7 @@ class Main{
         final int y =20;
         int z;
 
-        boolean k;
+        boolean c;
 
         //operators
         /*
@@ -51,7 +51,7 @@ class Main{
         //comparison operators - the result is always a boolean
         // == is used to check equality.
         
-        k = x ==y;
+        c = x ==y;
         System.out.println(c);
 
         //< less than operator
@@ -66,15 +66,15 @@ class Main{
 
         // > greater than
         c = x > y;
-        System.out.println(k);
+        System.out.println(c);
 
         // >= greater or equal to
         c = y >= x;
-        System.out.println(k);
+        System.out.println(c);
 
         //!= NOT EQUAL TO
         c = x != y;
-        System.out.println(k);
+        System.out.println(c);
 
         //Logical operators
         //&& and operator -  checks if the value on the right and left are true to give a true outcome.
