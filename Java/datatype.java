@@ -51,6 +51,7 @@ class Main {
   
       // Data  - they are used to store small amounts of data
       byte dan3 = 126;
+      System.out.println("Byte : " + dan3);
   
       //defining long
       long dan2 =  100000000l;
