@@ -1,6 +1,8 @@
 class Main{
     public static void main(String[] args) {
         int x = 10;
+
+        //final is used to define/ declare a constant
         final int y =20;
         int z;
 
@@ -51,7 +53,7 @@ class Main{
         //comparison operators - the result is always a boolean
         // == is used to check equality.
         
-        c = x ==y;
+        c = x == y;
         System.out.println(c);
 
         //< less than operator
